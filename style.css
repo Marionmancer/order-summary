@@ -1,0 +1,129 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+#description{
+  font-size: 16px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  color: hsl(224, 23%, 55%);
+}
+
+#container{
+  width: 350px;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  overflow: hidden;
+}
+
+#hero-img{
+  width: 100%;
+}
+
+#summary{
+  font-weight: 900;
+}
+
+h4{
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+}
+
+.button{
+  display: inline-flex;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+#subscription-type-button{
+  display: flex;
+  background-color: hsla(225, 100%, 94%, 0.3);
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#music-icon{
+  margin-right: 10px;
+}
+
+#plan-variant{
+  margin-right: 40px;
+  text-align: left;
+}
+
+a{
+  text-decoration: none; 
+}
+
+#change-button{
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+#change-button:hover{
+  color: hsla(245, 75%, 52%, 0.6);
+  text-decoration: none;
+}
+
+#procced-button{
+  color: hsl(225, 100%, 94%);
+  background-color:  hsl(245, 75%, 52%);
+  padding: 14px 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 20px 10px 5px hsla(245, 75%, 52%, 0.1);
+  -moz-box-shadow: 0px 20px 10px 5px hsla(245, 75%, 52%, 0.1);
+  box-shadow: 0px 20px 10px 5px hsla(245, 75%, 52%, 0.1);
+}
+
+#procced-button:hover{
+  background-color: hsla(245, 75%, 52%, 0.7);
+}
+
+#cancel-button{
+  color: hsla(223, 47%, 23%, 0.6);
+  background-color: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+#cancel-button:hover{
+  color: hsl(223, 47%, 23%);
+}
+
+#cost{
+  color: hsl(224, 23%, 55%);
+}
+
+footer{
+  margin-bottom: 5px;
+}
+
+@media (max-width: 375px) {
+  body{
+    background-image: url(./images/pattern-background-mobile.svg);
+  }
+}
+
+@media (min-width: 1440px) {
+  body{
+    background-repeat: repeat-x;
+  } 
+}
